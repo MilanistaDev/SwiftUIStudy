@@ -12,10 +12,14 @@ struct TopListView: View {
     var body: some View {
         NavigationView {
             List {
+                NavigationLink(destination: TozaiLineStaListView()) {
+                    // TODO: Make rowView for List.
+                    Text("東京メトロ 東西線駅リスト")
+                }
                 NavigationLink(destination: SecureTextField()) {
                     Text("ログインフォームサンプル")
                 }
-            }.navigationBarTitle(Text("SwiftUIStudy Contents"), displayMode: .large)
+            }.navigationBarTitle(Text("SwiftUIStudy Contents"))
         }
     }
 }

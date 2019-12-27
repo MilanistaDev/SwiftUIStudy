@@ -17,6 +17,7 @@
 		FDA3C5FA24499E18007C0F6A /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5F924499E18007C0F6A /* PasswordView.swift */; };
 		FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5FB24499EBD007C0F6A /* LoginButton.swift */; };
 		FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5FE24499F8B007C0F6A /* MailAddressView.swift */; };
+		FDA04FCE23B5C867000DC962 /* TozaiLineStaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FCD23B5C867000DC962 /* TozaiLineStaListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FDA3C5F924499E18007C0F6A /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 		FDA3C5FB24499EBD007C0F6A /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		FDA3C5FE24499F8B007C0F6A /* MailAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAddressView.swift; sourceTree = "<group>"; };
+		FDA04FCD23B5C867000DC962 /* TozaiLineStaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				FDA04FC823B5C69E000DC962 /* Top */,
 				FDA3C5F524499BA7007C0F6A /* SecureTextField */,
+				FDA04FCB23B5C7FA000DC962 /* TozaiLineStaList */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 			children = (
 			);
 			path = ViewModel;
+            sourceTree = "<group>";
+        };
+		FDA04FCB23B5C7FA000DC962 /* TozaiLineStaList */ = {
+			isa = PBXGroup;
+			children = (
+				FDA04FCD23B5C867000DC962 /* TozaiLineStaListView.swift */,
+			);
+			path = TozaiLineStaList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
 				FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */,
+				FDA04FCE23B5C867000DC962 /* TozaiLineStaListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
