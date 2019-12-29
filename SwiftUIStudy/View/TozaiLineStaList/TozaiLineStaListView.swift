@@ -10,7 +10,16 @@ import SwiftUI
 
 struct TozaiLineStaListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, content: {
+            Image("07Series")
+            .resizable()
+            .scaledToFit()
+            Text("駅リスト")
+            List {
+                Text("dsds")
+            }
+        })
+        .navigationBarTitle(Text("東京メトロ 東西線"), displayMode: .inline)
     }
 }
 

@@ -19,7 +19,7 @@ struct TopListView: View {
                 NavigationLink(destination: SecureTextField()) {
                     Text("ログインフォームサンプル")
                 }
-            }.navigationBarTitle(Text("SwiftUIStudy Contents"))
+            }.navigationBarTitle(Text("SwiftUIStudy Contents"), displayMode: .large)
         }
     }
 }
