@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD4D07DC23C34F3B0082EF3B /* MetroLineData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD4D07DB23C34F3B0082EF3B /* MetroLineData.plist */; };
 		FD4D07DE23C352080082EF3B /* MetroLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = FD4D07DD23C352080082EF3B /* MetroLineData.json */; };
+		FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */; };
 		FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */; };
 		FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FB323B5C5DF000DC962 /* SceneDelegate.swift */; };
 		FDA04FB823B5C5E0000DC962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA04FB723B5C5E0000DC962 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		FD4D07DB23C34F3B0082EF3B /* MetroLineData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MetroLineData.plist; sourceTree = "<group>"; };
 		FD4D07DD23C352080082EF3B /* MetroLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MetroLineData.json; sourceTree = "<group>"; };
+		FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationModel.swift; sourceTree = "<group>"; };
 		FDA04FAE23B5C5DF000DC962 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDA04FB323B5C5DF000DC962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,22 @@
 			path = DataPlist;
 			sourceTree = "<group>";
 		};
+		FD4D07DF23C3526F0082EF3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD4D07E023C352810082EF3B /* MetroStation */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD4D07E023C352810082EF3B /* MetroStation */ = {
+			isa = PBXGroup;
+			children = (
+				FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */,
+			);
+			path = MetroStation;
+			sourceTree = "<group>";
+		};
 		FDA04FA523B5C5DF000DC962 = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FDA04FC523B5C605000DC962 /* View */,
-				FDA3C5F624499BD0007C0F6A /* ViewModel */,
+				FDA04FC623B5C672000DC962 /* ViewModel */,
+				FD4D07DF23C3526F0082EF3B /* Model */,
 				FDA04FC723B5C67D000DC962 /* Utils */,
 				FD4D07DA23C34F260082EF3B /* DataPlist */,
 				FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */,
@@ -230,6 +249,7 @@
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
+				FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
 				FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */,
 				FDA04FCE23B5C867000DC962 /* TozaiLineStaListView.swift in Sources */,
