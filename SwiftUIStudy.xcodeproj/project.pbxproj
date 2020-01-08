@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD20869A23C4C23A00E97BA8 /* MetroStationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20869923C4C23A00E97BA8 /* MetroStationInfo.swift */; };
 		FD4D07DC23C34F3B0082EF3B /* MetroLineData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD4D07DB23C34F3B0082EF3B /* MetroLineData.plist */; };
 		FD4D07DE23C352080082EF3B /* MetroLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = FD4D07DD23C352080082EF3B /* MetroLineData.json */; };
 		FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD20869923C4C23A00E97BA8 /* MetroStationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationInfo.swift; sourceTree = "<group>"; };
 		FD4D07DB23C34F3B0082EF3B /* MetroLineData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MetroLineData.plist; sourceTree = "<group>"; };
 		FD4D07DD23C352080082EF3B /* MetroLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MetroLineData.json; sourceTree = "<group>"; };
 		FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationModel.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */,
+				FD20869923C4C23A00E97BA8 /* MetroStationInfo.swift */,
 			);
 			path = MetroStation;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				FDA3C5FA24499E18007C0F6A /* PasswordView.swift in Sources */,
 				FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */,
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
+				FD20869A23C4C23A00E97BA8 /* MetroStationInfo.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */,
