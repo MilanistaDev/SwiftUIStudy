@@ -8,6 +8,19 @@
 
 import Foundation
 
+enum MetroLineType: Int {
+    case all = 0
+    case ginza
+    case marunouchi
+    case hibiya
+    case tozai
+    case chiyoda
+    case yurakucho
+    case hanzomon
+    case namboku
+    case fukutoshin
+}
+
 final class MetroStationInfo {
 
     func fetchMetroStationInfoData(completion: @escaping ([[MetroStationModel]]) -> Void) {
@@ -24,7 +37,7 @@ final class MetroStationInfo {
                 completion(metroLineData)
             }
         } catch {
-            print("json convert failed in JSONDecoder. ")
+            print("json convert failed in JSONDecoder.")
         }
     }
 }
