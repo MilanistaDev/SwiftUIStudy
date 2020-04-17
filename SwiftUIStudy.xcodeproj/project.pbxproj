@@ -13,6 +13,7 @@
 		FDA04FBB23B5C5E0000DC962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA04FBA23B5C5E0000DC962 /* Preview Assets.xcassets */; };
 		FDA04FBE23B5C5E0000DC962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA04FBC23B5C5E0000DC962 /* LaunchScreen.storyboard */; };
 		FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FC923B5C6C1000DC962 /* TopListView.swift */; };
+		FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5F724499C02007C0F6A /* SecureTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDA04FBD23B5C5E0000DC962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA04FBF23B5C5E0000DC962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA04FC923B5C6C1000DC962 /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
+		FDA3C5F724499C02007C0F6A /* SecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA04FC523B5C605000DC962 /* View */,
-				FDA04FC623B5C672000DC962 /* ViewModel */,
+				FDA3C5F624499BD0007C0F6A /* ViewModel */,
 				FDA04FC723B5C67D000DC962 /* Utils */,
 				FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */,
 				FDA04FB323B5C5DF000DC962 /* SceneDelegate.swift */,
@@ -81,15 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				FDA04FC823B5C69E000DC962 /* Top */,
+				FDA3C5F524499BA7007C0F6A /* SecureTextField */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		FDA04FC623B5C672000DC962 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FDA04FC723B5C67D000DC962 /* Utils */ = {
@@ -105,6 +101,21 @@
 				FDA04FC923B5C6C1000DC962 /* TopListView.swift */,
 			);
 			path = Top;
+			sourceTree = "<group>";
+		};
+		FDA3C5F524499BA7007C0F6A /* SecureTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3C5F724499C02007C0F6A /* SecureTextField.swift */,
+			);
+			path = SecureTextField;
+			sourceTree = "<group>";
+		};
+		FDA3C5F624499BD0007C0F6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
 				FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */,

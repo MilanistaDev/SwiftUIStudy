@@ -10,7 +10,13 @@ import SwiftUI
 
 struct TopListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                NavigationLink(destination: SecureTextField()) {
+                    Text("ログインフォームサンプル")
+                }
+            }.navigationBarTitle(Text("SwiftUIStudy Contents"), displayMode: .large)
+        }
     }
 }
 
