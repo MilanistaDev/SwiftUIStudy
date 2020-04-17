@@ -14,6 +14,7 @@
 		FDA04FBE23B5C5E0000DC962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA04FBC23B5C5E0000DC962 /* LaunchScreen.storyboard */; };
 		FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FC923B5C6C1000DC962 /* TopListView.swift */; };
 		FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5F724499C02007C0F6A /* SecureTextField.swift */; };
+		FDA3C5FA24499E18007C0F6A /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5F924499E18007C0F6A /* PasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FDA04FBF23B5C5E0000DC962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA04FC923B5C6C1000DC962 /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
 		FDA3C5F724499C02007C0F6A /* SecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
+		FDA3C5F924499E18007C0F6A /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA3C5F724499C02007C0F6A /* SecureTextField.swift */,
+				FDA3C5F924499E18007C0F6A /* PasswordView.swift */,
 			);
 			path = SecureTextField;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA3C5FA24499E18007C0F6A /* PasswordView.swift in Sources */,
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
