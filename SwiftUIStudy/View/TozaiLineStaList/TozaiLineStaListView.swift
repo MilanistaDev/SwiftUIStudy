@@ -16,22 +16,21 @@ struct TozaiLineStaListView: View {
     var body: some View {
         VStack(alignment: .leading, content: {
             ZStack {
-                GeometryReader { geometry in
-                    Image("07Series")
-                        .resizable()
-                        .scaledToFill()
-                    Image("ic_TozaiLine")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 30.0, height: 30.0)
-                        .position(self.lineImageRectLoc)
-                        .gesture(DragGesture().onChanged({ (value) in
-                            self.lineImageRectLoc = value.location
-                        }).onEnded({ (_) in
-                            self.lineImageRectLoc = CGPoint(x: 20.0, y: 20.0)
-                        }))
-                }
+                Image("07Series")
+                    .resizable()
+                    .scaledToFill()
+                Image("ic_TozaiLine")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30.0, height: 30.0)
+                    .position(self.lineImageRectLoc)
+                    .gesture(DragGesture().onChanged({ (value) in
+                        self.lineImageRectLoc = value.location
+                    }).onEnded({ (_) in
+                        self.lineImageRectLoc = CGPoint(x: 20.0, y: 20.0)
+                    }))
             }
+            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width / 2)
             Image("ic_TozaiLine")
                 .resizable()
                 .scaledToFit()
