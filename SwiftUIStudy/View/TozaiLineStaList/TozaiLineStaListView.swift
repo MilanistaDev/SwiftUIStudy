@@ -15,21 +15,10 @@ struct TozaiLineStaListView: View {
     var body: some View {
         VStack(alignment: .leading, content: {
             TozaiLineStaListUpperView()
-            Image("ic_TozaiLine")
-                .resizable()
-                .scaledToFit()
-                .frame(minWidth: 80, idealWidth: 80, maxWidth: 80,
-                       alignment: Alignment.center)
-                .frame(minWidth: 20, maxWidth: .infinity)
-                .clipShape(Circle())
-                .overlay(
-                    Circle().stroke(Color.white, lineWidth: 2))
-                .shadow(radius: 10)
-                .offset(y: -40)
-                .padding(.bottom, -40)
-            Text("東京メトロ東西線 駅リスト")
+            TozaiLineStaListLineImageView()
+            Text("東京メトロ東西線 駅一覧")
                 .font(.headline)
-                .padding(.leading, 16.0)
+                .padding(.leading, 20.0)
             List {
                 ForEach(self.viewModel.tozaiLineStationList, id: \.self) { line in
                     Text(line.stationName)

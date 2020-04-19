@@ -24,6 +24,7 @@
 		FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5FB24499EBD007C0F6A /* LoginButton.swift */; };
 		FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5FE24499F8B007C0F6A /* MailAddressView.swift */; };
 		FDA3C601244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */; };
+		FDA3C603244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FDA3C5FB24499EBD007C0F6A /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		FDA3C5FE24499F8B007C0F6A /* MailAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAddressView.swift; sourceTree = "<group>"; };
 		FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListUpperView.swift; sourceTree = "<group>"; };
+		FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListLineImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				FDA04FCD23B5C867000DC962 /* TozaiLineStaListView.swift */,
 				FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */,
+				FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */,
 			);
 			path = TozaiLineStaList;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA3C603244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift in Sources */,
 				FDA3C601244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift in Sources */,
 				FDA3C5FA24499E18007C0F6A /* PasswordView.swift in Sources */,
 				FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */,
