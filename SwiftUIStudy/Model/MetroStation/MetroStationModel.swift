@@ -9,8 +9,7 @@
 import Foundation
 
 /// 東京メトロの駅の駅情報モデル
-struct MetroStationModel: Decodable {
-
+struct MetroStationModel: Decodable, Hashable {
     private(set) var stationImageName: String
     private(set) var stationName: String
     private(set) var lat: Double

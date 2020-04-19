@@ -9,7 +9,6 @@
 import Foundation
 
 enum MetroLineType: Int {
-    case all = 0
     case ginza
     case marunouchi
     case hibiya

@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct TozaiLineStaListView: View {
+
+    @ObservedObject var viewModel: TozaiLineStaListViewModel = TozaiLineStaListViewModel()
     @State private var lineImageRectLoc = CGPoint(x: 20.0, y: 20.0)
 
     var body: some View {
@@ -46,7 +48,9 @@ struct TozaiLineStaListView: View {
                 .font(.headline)
                 .padding(.leading, 16.0)
             List {
-                Text("dsds")
+                ForEach(self.viewModel.tozaiLineStationList, id: \.self) { line in
+                    Text(line.stationName)
+                }
             }
         })
         .navigationBarTitle(Text("東京メトロ東西線"), displayMode: .inline)
