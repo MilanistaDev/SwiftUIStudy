@@ -11,26 +11,10 @@ import SwiftUI
 struct TozaiLineStaListView: View {
 
     @ObservedObject var viewModel: TozaiLineStaListViewModel = TozaiLineStaListViewModel()
-    @State private var lineImageRectLoc = CGPoint(x: 20.0, y: 20.0)
 
     var body: some View {
         VStack(alignment: .leading, content: {
-            ZStack {
-                Image("07Series")
-                    .resizable()
-                    .scaledToFill()
-                Image("ic_TozaiLine")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 30.0, height: 30.0)
-                    .position(self.lineImageRectLoc)
-                    .gesture(DragGesture().onChanged({ (value) in
-                        self.lineImageRectLoc = value.location
-                    }).onEnded({ (_) in
-                        self.lineImageRectLoc = CGPoint(x: 20.0, y: 20.0)
-                    }))
-            }
-            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width / 2)
+            TozaiLineStaListUpperView()
             Image("ic_TozaiLine")
                 .resizable()
                 .scaledToFit()
