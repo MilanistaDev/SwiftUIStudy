@@ -25,6 +25,7 @@
 		FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C5FE24499F8B007C0F6A /* MailAddressView.swift */; };
 		FDA3C601244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */; };
 		FDA3C603244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */; };
+		FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C604244DA64E007C0F6A /* StationRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		FDA3C5FE24499F8B007C0F6A /* MailAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAddressView.swift; sourceTree = "<group>"; };
 		FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListUpperView.swift; sourceTree = "<group>"; };
 		FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListLineImageView.swift; sourceTree = "<group>"; };
+		FDA3C604244DA64E007C0F6A /* StationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				FDA04FCD23B5C867000DC962 /* TozaiLineStaListView.swift */,
 				FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */,
 				FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */,
+				FDA3C604244DA64E007C0F6A /* StationRowView.swift */,
 			);
 			path = TozaiLineStaList;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */,
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FD20869A23C4C23A00E97BA8 /* MetroStationInfo.swift in Sources */,
+				FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,

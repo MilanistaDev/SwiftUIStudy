@@ -21,7 +21,7 @@ struct TozaiLineStaListView: View {
                 .padding(.leading, 20.0)
             List {
                 ForEach(self.viewModel.tozaiLineStationList, id: \.self) { line in
-                    Text(line.stationName)
+                    StationRowView(metroStationModel: line)
                 }
             }
         })
