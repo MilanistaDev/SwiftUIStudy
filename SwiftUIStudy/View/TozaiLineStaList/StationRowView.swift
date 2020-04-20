@@ -60,8 +60,8 @@ struct LineColorView: UIViewRepresentable {
     }
 }
 
-//struct StationRowView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        StationRowView()
-//    }
-//}
+struct StationRowView_Previews: PreviewProvider {
+    static var previews: some View {
+        StationRowView(metroStationModel: TozaiLineStaListViewModel().tozaiLineStationList[0])
+    }
+}
