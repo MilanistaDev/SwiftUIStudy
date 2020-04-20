@@ -26,6 +26,7 @@ struct TozaiLineStaListView: View {
             }
         })
         .navigationBarTitle(Text("東京メトロ東西線"), displayMode: .inline)
+        .background(Color(red: 0.0/255.0, green: 167.0/255.0, blue: 219.0/255.0, opacity: 0.1))
     }
 }
 
