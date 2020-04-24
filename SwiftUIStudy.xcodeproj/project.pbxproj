@@ -27,6 +27,8 @@
 		FDA3C603244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */; };
 		FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C604244DA64E007C0F6A /* StationRowView.swift */; };
 		FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */; };
+		FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */; };
+		FDA40A742452C8EE00A1BF56 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListLineImageView.swift; sourceTree = "<group>"; };
 		FDA3C604244DA64E007C0F6A /* StationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRowView.swift; sourceTree = "<group>"; };
 		FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseXibInsteadOfView.swift; sourceTree = "<group>"; };
+		FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */,
+				FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */,
+				FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */,
 			);
 			path = UseXibInsteadOfView;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				FDA04FBB23B5C5E0000DC962 /* Preview Assets.xcassets in Resources */,
 				FD4D07DC23C34F3B0082EF3B /* MetroLineData.plist in Resources */,
 				FDA04FB823B5C5E0000DC962 /* Assets.xcassets in Resources */,
+				FDA40A742452C8EE00A1BF56 /* StationTableViewCell.xib in Resources */,
 				FD4D07DE23C352080082EF3B /* MetroLineData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +295,7 @@
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,
+				FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */,
 				FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */,
 				FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
