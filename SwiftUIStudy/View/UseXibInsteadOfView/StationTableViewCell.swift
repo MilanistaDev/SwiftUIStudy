@@ -24,8 +24,7 @@ class StationTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
 
-    class func build() -> UIView {
-        return UINib(nibName: "StationTableViewCell", bundle: nil)
-            .instantiate(withOwner: nil, options: nil)[0] as! UIView
+    class func build(model: MetroStationModel) -> UIView {
+        return UINib(nibName: "StationTableViewCell", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
     }
 }

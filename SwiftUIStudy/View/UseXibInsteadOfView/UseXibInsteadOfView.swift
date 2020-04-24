@@ -15,10 +15,22 @@ struct UseXibInsteadOfView: View {
     var body: some View {
         List {
             ForEach(self.viewModel.tozaiLineStationList, id: \.self) { line in
-                Text("abc")
+                StationCellView(stationModel: line)
             }
         }
         .navigationBarTitle(Text("東京メトロ東西線"), displayMode: .inline)
+    }
+}
+
+struct StationCellView: UIViewRepresentable {
+
+    var stationModel: MetroStationModel
+
+    func makeUIView(context: Context) -> some UIView {
+        StationTableViewCell.build(model: stationModel)
+    }
+
+    func updateUIView(_ uiView: UIViewType, context: Context) {
     }
 }
 
