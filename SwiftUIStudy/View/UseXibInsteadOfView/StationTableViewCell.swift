@@ -18,6 +18,10 @@ class StationTableViewCell: UITableViewCell, Nibable {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        let systemDynamicFontDescriptor = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .caption1)
+        let size = systemDynamicFontDescriptor.pointSize
+        let font = UIFont.boldSystemFont(ofSize: size)
+        self.transferLabel.font = font
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
