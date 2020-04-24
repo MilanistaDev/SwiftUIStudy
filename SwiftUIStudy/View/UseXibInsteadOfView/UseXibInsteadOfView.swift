@@ -20,6 +20,7 @@ struct UseXibInsteadOfView: View {
             }
             .listRowInsets(EdgeInsets())
         }
+        .environment(\.defaultMinListRowHeight, 124.0)
         .navigationBarTitle(Text("東京メトロ東西線"), displayMode: .inline)
     }
 }
