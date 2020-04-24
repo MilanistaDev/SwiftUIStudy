@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct UseXibInsteadOfView: View {
+
+    @ObservedObject var viewModel: TozaiLineStaListViewModel = TozaiLineStaListViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(self.viewModel.tozaiLineStationList, id: \.self) { line in
+                Text("abc")
+            }
+        }
+        .navigationBarTitle(Text("東京メトロ東西線"), displayMode: .inline)
     }
 }
 
