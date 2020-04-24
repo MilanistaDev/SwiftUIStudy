@@ -23,4 +23,9 @@ class StationTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
+
+    class func build() -> UIView {
+        return UINib(nibName: "StationTableViewCell", bundle: nil)
+            .instantiate(withOwner: nil, options: nil)[0] as! UIView
+    }
 }
