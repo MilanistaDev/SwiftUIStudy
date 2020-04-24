@@ -26,6 +26,7 @@
 		FDA3C601244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */; };
 		FDA3C603244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */; };
 		FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA3C604244DA64E007C0F6A /* StationRowView.swift */; };
+		FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		FDA3C600244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListUpperView.swift; sourceTree = "<group>"; };
 		FDA3C602244C95BE007C0F6A /* TozaiLineStaListLineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaiLineStaListLineImageView.swift; sourceTree = "<group>"; };
 		FDA3C604244DA64E007C0F6A /* StationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRowView.swift; sourceTree = "<group>"; };
+		FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseXibInsteadOfView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				FDA04FC823B5C69E000DC962 /* Top */,
 				FDA3C5F524499BA7007C0F6A /* SecureTextField */,
 				FDA04FCB23B5C7FA000DC962 /* TozaiLineStaList */,
+				FDA40A6E2452C56800A1BF56 /* UseXibInsteadOfView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,14 @@
 				FDA3C5FB24499EBD007C0F6A /* LoginButton.swift */,
 			);
 			path = SecureTextField;
+			sourceTree = "<group>";
+		};
+		FDA40A6E2452C56800A1BF56 /* UseXibInsteadOfView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */,
+			);
+			path = UseXibInsteadOfView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,
+				FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */,
 				FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
 				FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */,
