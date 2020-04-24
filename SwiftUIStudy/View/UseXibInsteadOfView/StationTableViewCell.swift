@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StationTableViewCell: UITableViewCell {
+class StationTableViewCell: UITableViewCell, Nibable {
 
     @IBOutlet weak var stationNumImageView: UIImageView!
     @IBOutlet weak var stationNameLabel: UILabel!
@@ -25,6 +25,12 @@ class StationTableViewCell: UITableViewCell {
     }
 
     class func build(model: MetroStationModel) -> UIView {
-        return UINib(nibName: "StationTableViewCell", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
+        let cellView = instantiateView()
+        cellView.stationNumImageView.image = UIImage(named: model.stationImageName)
+        cellView.stationNameLabel.text = model.stationName
+        cellView.postalCodeLabel.text = model.postalCode
+        cellView.addressLabel.text = model.address
+        cellView.transferLabel.text = model.transfer
+        return cellView
     }
 }
