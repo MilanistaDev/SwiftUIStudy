@@ -29,6 +29,7 @@
 		FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */; };
 		FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */; };
 		FDA40A742452C8EE00A1BF56 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */; };
+		FDA40A772452E66D00A1BF56 /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A762452E66D00A1BF56 /* Nibable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		FDA40A6F2452C59700A1BF56 /* UseXibInsteadOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseXibInsteadOfView.swift; sourceTree = "<group>"; };
 		FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
 		FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+		FDA40A762452E66D00A1BF56 /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				FDA04FC623B5C672000DC962 /* ViewModel */,
 				FD4D07DF23C3526F0082EF3B /* Model */,
 				FDA04FC723B5C67D000DC962 /* Utils */,
+				FDA40A752452E64D00A1BF56 /* Proocol */,
 				FD4D07DA23C34F260082EF3B /* DataPlist */,
 				FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */,
 				FDA04FB323B5C5DF000DC962 /* SceneDelegate.swift */,
@@ -209,6 +212,14 @@
 				FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */,
 			);
 			path = UseXibInsteadOfView;
+			sourceTree = "<group>";
+		};
+		FDA40A752452E64D00A1BF56 /* Proocol */ = {
+			isa = PBXGroup;
+			children = (
+				FDA40A762452E66D00A1BF56 /* Nibable.swift */,
+			);
+			path = Proocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,
 				FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */,
 				FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */,
+				FDA40A772452E66D00A1BF56 /* Nibable.swift in Sources */,
 				FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
 				FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */,
