@@ -16,7 +16,9 @@ struct UseXibInsteadOfView: View {
         List {
             ForEach(self.viewModel.tozaiLineStationList, id: \.self) { line in
                 StationCellView(stationModel: line)
+                    .frame(height: 124.0)
             }
+            .listRowInsets(EdgeInsets())
         }
         .navigationBarTitle(Text("東京メトロ東西線"), displayMode: .inline)
     }
