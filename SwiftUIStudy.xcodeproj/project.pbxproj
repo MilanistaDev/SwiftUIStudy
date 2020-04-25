@@ -30,6 +30,7 @@
 		FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */; };
 		FDA40A742452C8EE00A1BF56 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */; };
 		FDA40A772452E66D00A1BF56 /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A762452E66D00A1BF56 /* Nibable.swift */; };
+		FDB3C2B72454650B00C74DF3 /* HorizontalItemViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		FDA40A712452C8EE00A1BF56 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
 		FDA40A722452C8EE00A1BF56 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
 		FDA40A762452E66D00A1BF56 /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
+		FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				FDA3C5F524499BA7007C0F6A /* SecureTextField */,
 				FDA04FCB23B5C7FA000DC962 /* TozaiLineStaList */,
 				FDA40A6E2452C56800A1BF56 /* UseXibInsteadOfView */,
+				FDB3C2B5245464BE00C74DF3 /* HorizontalItemViewer */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,14 @@
 				FDA40A762452E66D00A1BF56 /* Nibable.swift */,
 			);
 			path = Proocol;
+			sourceTree = "<group>";
+		};
+		FDB3C2B5245464BE00C74DF3 /* HorizontalItemViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */,
+			);
+			path = HorizontalItemViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */,
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FD20869A23C4C23A00E97BA8 /* MetroStationInfo.swift in Sources */,
+				FDB3C2B72454650B00C74DF3 /* HorizontalItemViewer.swift in Sources */,
 				FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,

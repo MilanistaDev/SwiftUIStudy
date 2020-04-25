@@ -22,6 +22,9 @@ struct TopListView: View {
                 NavigationLink(destination: SecureTextField()) {
                     Text("ログインフォームサンプル")
                 }
+                NavigationLink(destination: HorizontalItemViewer()) {
+                    Text("横スクロールするアイテムビューア")
+                }
             }.navigationBarTitle(Text("SwiftUIStudy Contents"), displayMode: .large)
         }
     }
