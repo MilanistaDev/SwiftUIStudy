@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StationTableViewCell" rowHeight="124" id="KGk-i7-Jjw" customClass="StationTableViewCell" customModule="SwiftUIStudy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVe-aq-lHx">
+                        <rect key="frame" x="20" y="8" width="8" height="46"/>
+                        <color key="backgroundColor" red="0.29090598229999998" green="0.64298564199999997" blue="0.83924210070000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="lYx-Pw-STs"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="東京メトロ東西線" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5p-ug-Phc">
+                        <rect key="frame" x="36" y="8" width="123" height="18"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T01" translatesAutoresizingMaskIntoConstraints="NO" id="OAc-Vx-jpO">
+                        <rect key="frame" x="36" y="30" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="OAc-Vx-jpO" secondAttribute="height" id="qkI-W7-T2S"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="〒164-0001" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maz-qn-hb0">
+                        <rect key="frame" x="20" y="62" width="73" height="16"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="東京都中野区中野5-31-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIp-kF-jSM">
+                        <rect key="frame" x="20" y="78" width="136" height="15"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JR線・東西線" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJc-0a-bOv">
+                        <rect key="frame" x="20" y="101" width="76" height="15"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T01" translatesAutoresizingMaskIntoConstraints="NO" id="7PC-4P-Gln">
+                        <rect key="frame" x="36" y="30" width="24" height="24"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中野" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbZ-Ui-WnV">
+                        <rect key="frame" x="68" y="30" width="35" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="2dX-n4-lva"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m5p-ug-Phc" firstAttribute="top" secondItem="LVe-aq-lHx" secondAttribute="top" id="3mh-j4-9n7"/>
+                    <constraint firstItem="gIp-kF-jSM" firstAttribute="top" secondItem="maz-qn-hb0" secondAttribute="bottom" id="5YF-nj-KQf"/>
+                    <constraint firstItem="maz-qn-hb0" firstAttribute="top" secondItem="LVe-aq-lHx" secondAttribute="bottom" constant="8" id="9Oj-CX-knD"/>
+                    <constraint firstItem="kbZ-Ui-WnV" firstAttribute="leading" secondItem="OAc-Vx-jpO" secondAttribute="trailing" constant="8" id="9xb-7P-hF6"/>
+                    <constraint firstItem="LVe-aq-lHx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Afw-hM-YZU"/>
+                    <constraint firstItem="pJc-0a-bOv" firstAttribute="leading" secondItem="LVe-aq-lHx" secondAttribute="leading" id="BIe-Hb-xX7"/>
+                    <constraint firstItem="m5p-ug-Phc" firstAttribute="leading" secondItem="LVe-aq-lHx" secondAttribute="trailing" constant="8" id="O4s-xH-afr"/>
+                    <constraint firstItem="kbZ-Ui-WnV" firstAttribute="top" secondItem="m5p-ug-Phc" secondAttribute="bottom" constant="4" id="ObC-9r-QUk"/>
+                    <constraint firstItem="kbZ-Ui-WnV" firstAttribute="height" secondItem="OAc-Vx-jpO" secondAttribute="height" id="Ony-AO-j5r"/>
+                    <constraint firstItem="7PC-4P-Gln" firstAttribute="leading" secondItem="OAc-Vx-jpO" secondAttribute="leading" id="PA5-vR-dAr"/>
+                    <constraint firstItem="7PC-4P-Gln" firstAttribute="height" secondItem="kbZ-Ui-WnV" secondAttribute="height" id="SAS-gZ-fHl"/>
+                    <constraint firstItem="OAc-Vx-jpO" firstAttribute="bottom" secondItem="LVe-aq-lHx" secondAttribute="bottom" id="T3f-6O-gux"/>
+                    <constraint firstItem="LVe-aq-lHx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Xvw-8z-rIr"/>
+                    <constraint firstItem="gIp-kF-jSM" firstAttribute="leading" secondItem="LVe-aq-lHx" secondAttribute="leading" id="eSp-Ee-GHo"/>
+                    <constraint firstItem="maz-qn-hb0" firstAttribute="leading" secondItem="LVe-aq-lHx" secondAttribute="leading" id="fwh-RD-Yaq"/>
+                    <constraint firstItem="pJc-0a-bOv" firstAttribute="top" secondItem="gIp-kF-jSM" secondAttribute="bottom" constant="8" id="gvM-5B-hrE"/>
+                    <constraint firstItem="7PC-4P-Gln" firstAttribute="bottom" secondItem="LVe-aq-lHx" secondAttribute="bottom" id="hI6-u5-w4S"/>
+                    <constraint firstAttribute="bottom" secondItem="pJc-0a-bOv" secondAttribute="bottom" constant="8" id="rkT-uc-QCe"/>
+                    <constraint firstItem="kbZ-Ui-WnV" firstAttribute="bottom" secondItem="LVe-aq-lHx" secondAttribute="bottom" id="saG-RC-YMw"/>
+                    <constraint firstItem="7PC-4P-Gln" firstAttribute="width" secondItem="7PC-4P-Gln" secondAttribute="height" id="tuK-VM-P1K"/>
+                    <constraint firstItem="OAc-Vx-jpO" firstAttribute="leading" secondItem="m5p-ug-Phc" secondAttribute="leading" id="vRr-5J-nrX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="gIp-kF-jSM" id="nPR-1h-jD9"/>
+                <outlet property="postalCodeLabel" destination="maz-qn-hb0" id="X6b-X2-1x8"/>
+                <outlet property="stationNameLabel" destination="kbZ-Ui-WnV" id="Lys-aO-Iby"/>
+                <outlet property="stationNumImageView" destination="7PC-4P-Gln" id="k4T-DN-ljq"/>
+                <outlet property="transferLabel" destination="pJc-0a-bOv" id="29a-g0-VDA"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="T01" width="24" height="24"/>
+    </resources>
+</document>

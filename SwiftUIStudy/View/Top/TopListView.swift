@@ -16,6 +16,9 @@ struct TopListView: View {
                     // TODO: Make rowView for List.
                     Text("東京メトロ 東西線駅リスト")
                 }
+                NavigationLink(destination: UseXibInsteadOfView()) {
+                    Text("東京メトロ東西線駅リスト2")
+                }
                 NavigationLink(destination: SecureTextField()) {
                     Text("ログインフォームサンプル")
                 }
