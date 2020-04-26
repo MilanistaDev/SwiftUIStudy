@@ -29,11 +29,11 @@ struct HorizontalItemViewer: View {
                                 .border(Color.black, width: 0.5)
                                 .clipped()
                             VStack(alignment: .leading) {
-                                Text("WWDC19 料理紹介")
+                                Text(wwdcDishes[index].title)
                                     .font(.headline)
                                     .foregroundColor(.black)
                                     .padding([.top, .leading], 8.0)
-                                Text("WWDC19 Bashで司会をするクレイグ・フェデリギ氏WWDC19 Bashで司会をするクレイグ・フェデリギ氏会をするクレイグ・フェ")
+                                Text(wwdcDishes[index].description)
                                     .font(.footnote)
                                     .foregroundColor(.black)
                                     .lineLimit(3)
