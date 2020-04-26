@@ -29,15 +29,25 @@ struct HorizontalItemViewer: View {
                                 .border(Color.black, width: 0.5)
                                 .clipped()
                             VStack(alignment: .leading) {
-                                Text(wwdcDishes[index].title)
-                                    .font(.headline)
-                                    .foregroundColor(.black)
-                                    .padding([.top, .leading], 8.0)
+                                HStack {
+                                    Text(wwdcDishes[index].title)
+                                        .font(.headline)
+                                        .foregroundColor(.black)
+                                    Spacer()
+                                    Button(action: {
+
+                                    }) {
+                                        Image(systemName: "link.circle")
+                                    }
+                                    .frame(width: 16.0, height: 16.0)
+                                    .opacity(wwdcDishes[index].link.isEmpty ? 0.0 : 1.0)
+                                }
+                                .padding([.top, .horizontal], 8.0)
                                 Text(wwdcDishes[index].description)
                                     .font(.footnote)
                                     .foregroundColor(.black)
                                     .lineLimit(3)
-                                    .padding(.all, 8.0)
+                                    .padding([.horizontal, .bottom], 8.0)
                             }
                             .frame(width: UIScreen.main.bounds.width - self.adjustPadding * 2)
                             .background(Color.yellow)
