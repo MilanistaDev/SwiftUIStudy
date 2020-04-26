@@ -20,7 +20,7 @@ struct HorizontalItemViewer: View {
                 .padding(.top, 16.0)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20.0) {
-                    ForEach(0..<17) { index in
+                    ForEach(0..<wwdcDishes.count) { index in
                         VStack(alignment: .leading) {
                             Image("WWDC19_DISH_" + String(index))
                                 .resizable()
