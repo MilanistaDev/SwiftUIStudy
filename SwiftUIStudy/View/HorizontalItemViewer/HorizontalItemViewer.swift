@@ -10,6 +10,8 @@ import SwiftUI
 
 struct HorizontalItemViewer: View {
 
+    @State private var showModal: Bool = false
+    @State private var selectedNum: Int = 0
     private let adjustPadding: CGFloat = 30.0
 
     var body: some View {
@@ -35,12 +37,17 @@ struct HorizontalItemViewer: View {
                                         .foregroundColor(.black)
                                     Spacer()
                                     Button(action: {
-
+                                        self.showModal.toggle()
+                                        self.selectedNum = index
                                     }) {
                                         Image(systemName: "link.circle")
                                     }
                                     .frame(width: 16.0, height: 16.0)
                                     .opacity(wwdcDishes[index].link.isEmpty ? 0.0 : 1.0)
+                                    .sheet(isPresented: self.$showModal) {
+                                        SafariView(url: URL(string: wwdcDishes[self.selectedNum].link))
+                                            .edgesIgnoringSafeArea(.bottom)
+                                    }
                                 }
                                 .padding([.top, .horizontal], 8.0)
                                 Text(wwdcDishes[index].description)
@@ -52,9 +59,7 @@ struct HorizontalItemViewer: View {
                             .frame(width: UIScreen.main.bounds.width - self.adjustPadding * 2)
                             .background(Color.yellow)
                             .clipShape(RoundedRectangle(cornerRadius: 5))
-
                         }
-
                     }
                 }
                 .padding([.leading, .trailing], self.adjustPadding)
