@@ -32,6 +32,7 @@
 		FDA40A772452E66D00A1BF56 /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA40A762452E66D00A1BF56 /* Nibable.swift */; };
 		FDB3C2B72454650B00C74DF3 /* HorizontalItemViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */; };
 		FDB3C2B92455D44600C74DF3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2B82455D44600C74DF3 /* Constant.swift */; };
+		FDB3C2BC2455F89000C74DF3 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2BB2455F89000C74DF3 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		FDA40A762452E66D00A1BF56 /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
 		FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemViewer.swift; sourceTree = "<group>"; };
 		FDB3C2B82455D44600C74DF3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FDB3C2BB2455F89000C74DF3 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA04FC823B5C69E000DC962 /* Top */,
+				FDB3C2BA2455F86600C74DF3 /* Safari */,
 				FDA3C5F524499BA7007C0F6A /* SecureTextField */,
 				FDA04FCB23B5C7FA000DC962 /* TozaiLineStaList */,
 				FDA40A6E2452C56800A1BF56 /* UseXibInsteadOfView */,
@@ -236,6 +239,14 @@
 			path = HorizontalItemViewer;
 			sourceTree = "<group>";
 		};
+		FDB3C2BA2455F86600C74DF3 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3C2BB2455F89000C74DF3 /* SafariView.swift */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,6 +325,7 @@
 				FDA3C601244C8FBC007C0F6A /* TozaiLineStaListUpperView.swift in Sources */,
 				FDA3C5FA24499E18007C0F6A /* PasswordView.swift in Sources */,
 				FDA3C5FC24499EBD007C0F6A /* LoginButton.swift in Sources */,
+				FDB3C2BC2455F89000C74DF3 /* SafariView.swift in Sources */,
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FD20869A23C4C23A00E97BA8 /* MetroStationInfo.swift in Sources */,
 				FDB3C2B72454650B00C74DF3 /* HorizontalItemViewer.swift in Sources */,
