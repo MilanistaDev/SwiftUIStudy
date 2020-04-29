@@ -63,7 +63,7 @@ struct HorizontalItemViewer: View {
                                 .background(Color.yellow)
                                 .clipShape(RoundedRectangle(cornerRadius: 5))
                             }
-                            .rotation3DEffect(Angle(degrees: (Double(geometry.frame(in: .global).minX) - Double(UIScreen.main.bounds.width) / 2 - 5.0) / -10),
+                            .rotation3DEffect(Angle(degrees: (Double(geometry.frame(in: .global).minX) - Double(UIScreen.main.bounds.width) / 2 + 5.0) / -10),
                                               axis: (x: 0.0, y: 1.0, z: 0.0))
                         }
                     }
