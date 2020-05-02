@@ -12,6 +12,9 @@
 		FD4D07DC23C34F3B0082EF3B /* MetroLineData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD4D07DB23C34F3B0082EF3B /* MetroLineData.plist */; };
 		FD4D07DE23C352080082EF3B /* MetroLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = FD4D07DD23C352080082EF3B /* MetroLineData.json */; };
 		FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */; };
+		FD7330B9245D43F1004E9FB6 /* HorizontalItemContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7330B8245D43F1004E9FB6 /* HorizontalItemContentsView.swift */; };
+		FD7330BB245D4E2B004E9FB6 /* HorizontalItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7330BA245D4E2B004E9FB6 /* HorizontalItemImageView.swift */; };
+		FD7330BD245D4FE8004E9FB6 /* HorizontalItemDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7330BC245D4FE8004E9FB6 /* HorizontalItemDescriptionView.swift */; };
 		FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */; };
 		FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA04FB323B5C5DF000DC962 /* SceneDelegate.swift */; };
 		FDA04FB823B5C5E0000DC962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA04FB723B5C5E0000DC962 /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 		FD4D07DB23C34F3B0082EF3B /* MetroLineData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MetroLineData.plist; sourceTree = "<group>"; };
 		FD4D07DD23C352080082EF3B /* MetroLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MetroLineData.json; sourceTree = "<group>"; };
 		FD4D07E123C352AB0082EF3B /* MetroStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationModel.swift; sourceTree = "<group>"; };
+		FD7330B8245D43F1004E9FB6 /* HorizontalItemContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemContentsView.swift; sourceTree = "<group>"; };
+		FD7330BA245D4E2B004E9FB6 /* HorizontalItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemImageView.swift; sourceTree = "<group>"; };
+		FD7330BC245D4FE8004E9FB6 /* HorizontalItemDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemDescriptionView.swift; sourceTree = "<group>"; };
 		FDA04FAE23B5C5DF000DC962 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA04FB123B5C5DF000DC962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDA04FB323B5C5DF000DC962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -238,6 +244,9 @@
 			children = (
 				FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */,
 				FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */,
+				FD7330B8245D43F1004E9FB6 /* HorizontalItemContentsView.swift */,
+				FD7330BA245D4E2B004E9FB6 /* HorizontalItemImageView.swift */,
+				FD7330BC245D4FE8004E9FB6 /* HorizontalItemDescriptionView.swift */,
 			);
 			path = HorizontalItemViewer;
 			sourceTree = "<group>";
@@ -338,10 +347,13 @@
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FDB3C327245D3CAF00C74DF3 /* HorizontalItemUpperView.swift in Sources */,
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,
+				FD7330BD245D4FE8004E9FB6 /* HorizontalItemDescriptionView.swift in Sources */,
+				FD7330B9245D43F1004E9FB6 /* HorizontalItemContentsView.swift in Sources */,
 				FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */,
 				FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */,
 				FDA40A772452E66D00A1BF56 /* Nibable.swift in Sources */,
 				FD4D07E223C352AB0082EF3B /* MetroStationModel.swift in Sources */,
+				FD7330BB245D4E2B004E9FB6 /* HorizontalItemImageView.swift in Sources */,
 				FDA04FCA23B5C6C1000DC962 /* TopListView.swift in Sources */,
 				FDA04FB423B5C5DF000DC962 /* SceneDelegate.swift in Sources */,
 				FDA04FCE23B5C867000DC962 /* TozaiLineStaListView.swift in Sources */,
