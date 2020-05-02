@@ -10,22 +10,14 @@ import SwiftUI
 
 struct HorizontalItemViewer: View {
 
-    @State private var isChaos: Bool = false
+    @State private var isChaosMode: Bool = false
     @State private var showModal: Bool = false
     @State private var selectedNum: Int = 0
     private let adjustPadding: CGFloat = 30.0
 
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                Text("WWDC19 Dishes")
-                    .font(.title)
-                Spacer()
-                Toggle("Chaos Mode", isOn: $isChaos)
-                .labelsHidden()
-            }
-            .padding(.horizontal, 30.0)
-            .padding(.top, 16.0)
+            HorizontalItemUpperView(isChaosMode: $isChaosMode)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: UIScreen.main.bounds.width * 0.75) {
                     ForEach(0..<wwdcDishes.count) { index in
@@ -69,7 +61,7 @@ struct HorizontalItemViewer: View {
                                 .background(Color.yellow)
                                 .clipShape(RoundedRectangle(cornerRadius: 5))
                             }
-                            .rotation3DEffect(Angle(degrees: (Double(geometry.frame(in: .global).minX) - Double(UIScreen.main.bounds.width) / 2 + 5.0) / (self.isChaos ? 1 : -10)),
+                            .rotation3DEffect(Angle(degrees: (Double(geometry.frame(in: .global).minX) - Double(UIScreen.main.bounds.width) / 2 + 5.0) / (self.isChaosMode ? 1 : -10)),
                                               axis: (x: 0.0, y: 1.0, z: 0.0))
                         }
                     }

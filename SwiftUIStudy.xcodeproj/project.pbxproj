@@ -33,6 +33,7 @@
 		FDB3C2B72454650B00C74DF3 /* HorizontalItemViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */; };
 		FDB3C2B92455D44600C74DF3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2B82455D44600C74DF3 /* Constant.swift */; };
 		FDB3C2BC2455F89000C74DF3 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2BB2455F89000C74DF3 /* SafariView.swift */; };
+		FDB3C327245D3CAF00C74DF3 /* HorizontalItemUpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemViewer.swift; sourceTree = "<group>"; };
 		FDB3C2B82455D44600C74DF3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		FDB3C2BB2455F89000C74DF3 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemUpperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				FDB3C2B62454650B00C74DF3 /* HorizontalItemViewer.swift */,
+				FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */,
 			);
 			path = HorizontalItemViewer;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				FDB3C2B92455D44600C74DF3 /* Constant.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
+				FDB3C327245D3CAF00C74DF3 /* HorizontalItemUpperView.swift in Sources */,
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,
 				FDA40A732452C8EE00A1BF56 /* StationTableViewCell.swift in Sources */,
 				FDA40A702452C59700A1BF56 /* UseXibInsteadOfView.swift in Sources */,
