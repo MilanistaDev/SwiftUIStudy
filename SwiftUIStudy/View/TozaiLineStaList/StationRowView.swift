@@ -16,7 +16,8 @@ struct StationRowView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .top) {
-                LineColorView()
+                Rectangle()
+                    .foregroundColor(.tozaiLine)
                     .frame(width: 8.0, height: self.lineColorHeight)
                 VStack(alignment: .leading, spacing: 4.0) {
                     Text("東京メトロ東西線")
@@ -46,18 +47,6 @@ struct StationRowView: View {
                 .bold()
         }
         .padding([.top, .bottom], 4.0)
-    }
-}
-
-struct LineColorView: UIViewRepresentable {
-    func makeUIView(context: Context) -> UIView {
-        let lineColorView = UIView()
-        lineColorView.backgroundColor = UIColor(red: 0.0, green: 167.0/255.0, blue: 219.0/255.0, alpha: 1.0)
-        return lineColorView
-    }
-
-    func updateUIView(_ uiView: UIView, context: Context) {
-        //
     }
 }
 
