@@ -46,7 +46,7 @@ struct StationRowView: View {
                 .font(.caption)
                 .bold()
         }
-        .padding([.top, .bottom], 4.0)
+        .padding(.vertical, 4.0)
     }
 }
 
