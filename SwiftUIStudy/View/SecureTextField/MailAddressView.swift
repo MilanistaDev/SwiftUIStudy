@@ -13,9 +13,19 @@ struct MailAddressView: View {
     @State private var mailAddress: String = ""
 
     var body: some View {
-        TextField("Mail address", text: $mailAddress)
-            .textFieldStyle(RoundedBorderTextFieldStyle())
-            .padding(20.0)
+        VStack(alignment: .leading) {
+            Text("Mail address")
+                .font(.caption)
+                .foregroundColor(Color(.placeholderText))
+                .padding(.leading, 8.0)
+                .padding(.bottom, -4.0)
+            TextField("Mail address", text: $mailAddress)
+                .padding(.leading, 8.0)
+            Divider()
+                .frame(height: 1)
+                .background(Color.gray)
+        }
+        .padding(20.0)
     }
 }
 
