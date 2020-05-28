@@ -18,6 +18,8 @@ struct PasswordView: View {
             Text("Password")
                 .font(.caption)
                 .foregroundColor(Color(.placeholderText))
+                .opacity(password.isEmpty ? 0.0: 1.0)
+                .offset(y: password.isEmpty ? 20.0: 0.0)
                 .padding(.leading, 8.0)
                 .padding(.bottom, -8.0)
             HStack {

@@ -17,6 +17,8 @@ struct MailAddressView: View {
             Text("Mail address")
                 .font(.caption)
                 .foregroundColor(Color(.placeholderText))
+                .opacity(mailAddress.isEmpty ? 0.0: 1.0)
+                .offset(y: mailAddress.isEmpty ? 20.0: 0.0)
                 .padding(.leading, 8.0)
                 .padding(.bottom, -4.0)
             TextField("Mail address", text: $mailAddress)
