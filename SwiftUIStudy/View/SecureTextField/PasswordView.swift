@@ -38,7 +38,7 @@ struct PasswordView: View {
                         Image(systemName: "eye.fill")
                 }
                 .foregroundColor(.gray)
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 24.0, height: 24.0)
             }
             Divider()
                 .frame(height: 1)
