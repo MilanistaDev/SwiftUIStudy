@@ -14,26 +14,37 @@ struct PasswordView: View {
     @State private var isSecured: Bool = true
 
     var body: some View {
-        HStack {
-            if self.isSecured {
-                SecureField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.leading, 20.0)
-            } else {
-                TextField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.leading, 20.0)
+        VStack(alignment: .leading) {
+            Text("Password")
+                .font(.caption)
+                .foregroundColor(Color(.placeholderText))
+                .opacity(password.isEmpty ? 0.0: 1.0)
+                .offset(y: password.isEmpty ? 20.0: 0.0)
+                .padding(.leading, 8.0)
+                .padding(.bottom, -8.0)
+            HStack {
+                if self.isSecured {
+                    SecureField("Password", text: $password)
+                        .padding(.leading, 8.0)
+                } else {
+                    TextField("Password", text: $password)
+                        .padding(.leading, 8.0)
+                }
+                Button(action: {
+                    self.isSecured.toggle()
+                }) {
+                    self.isSecured ?
+                        Image(systemName: "eye.slash.fill") :
+                        Image(systemName: "eye.fill")
+                }
+                .foregroundColor(.gray)
+                .frame(width: 24.0, height: 24.0)
             }
-            Button(action: {
-                self.isSecured.toggle()
-            }) {
-                self.isSecured ?
-                    Image(systemName: "eye.slash.fill") :
-                    Image(systemName: "eye.fill")
-            }
-            .foregroundColor(.gray)
-            .padding(.trailing, 20.0)
+            Divider()
+                .frame(height: 1)
+                .background(Color.gray)
         }
+        .padding(.horizontal, 20.0)
     }
 }
 
