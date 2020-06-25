@@ -39,6 +39,7 @@
 		FDB3C2BC2455F89000C74DF3 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2BB2455F89000C74DF3 /* SafariView.swift */; };
 		FDB3C327245D3CAF00C74DF3 /* HorizontalItemUpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */; };
 		FDB7FBCE24A4927B00792FC3 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7FBCD24A4927B00792FC3 /* Contents.swift */; };
+		FDB7FBD324A4D9CD00792FC3 /* HorizontalStackSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7FBD224A4D9CD00792FC3 /* HorizontalStackSampleView.swift */; };
 		FDE81CCD24792282003D1C71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE81CCC24792282003D1C71 /* Color.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		FDB3C2BB2455F89000C74DF3 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemUpperView.swift; sourceTree = "<group>"; };
 		FDB7FBCD24A4927B00792FC3 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		FDB7FBD224A4D9CD00792FC3 /* HorizontalStackSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalStackSampleView.swift; sourceTree = "<group>"; };
 		FDE81CCC24792282003D1C71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,6 +202,7 @@
 				FDA04FCB23B5C7FA000DC962 /* TozaiLineStaList */,
 				FDA40A6E2452C56800A1BF56 /* UseXibInsteadOfView */,
 				FDB3C2B5245464BE00C74DF3 /* HorizontalItemViewer */,
+				FDB7FBCF24A4D96B00792FC3 /* HorizontalStackSample */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,14 @@
 				FDB7FBCD24A4927B00792FC3 /* Contents.swift */,
 			);
 			path = Contents;
+			sourceTree = "<group>";
+		};
+		FDB7FBCF24A4D96B00792FC3 /* HorizontalStackSample */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7FBD224A4D9CD00792FC3 /* HorizontalStackSampleView.swift */,
+			);
+			path = HorizontalStackSample;
 			sourceTree = "<group>";
 		};
 		FDE81CCB24792266003D1C71 /* Extension */ = {
@@ -425,6 +436,7 @@
 				FDA3C5F824499C02007C0F6A /* SecureTextField.swift in Sources */,
 				FD20869A23C4C23A00E97BA8 /* MetroStationInfo.swift in Sources */,
 				FDB3C2B72454650B00C74DF3 /* HorizontalItemViewer.swift in Sources */,
+				FDB7FBD324A4D9CD00792FC3 /* HorizontalStackSampleView.swift in Sources */,
 				FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */,
 				FDB3C2B92455D44600C74DF3 /* Constant.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
