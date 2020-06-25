@@ -11,21 +11,36 @@ import SwiftUI
 struct TopListView: View {
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink(destination: TozaiLineStaListView()) {
-                    // TODO: Make rowView for List.
-                    Text("東京メトロ 東西線駅リスト")
-                }
-                NavigationLink(destination: UseXibInsteadOfView()) {
-                    Text("東京メトロ東西線駅リスト2")
-                }
-                NavigationLink(destination: SecureTextField()) {
-                    Text("ログインフォームサンプル")
-                }
-                NavigationLink(destination: HorizontalItemViewer()) {
-                    Text("横スクロールするアイテムビューア")
-                }
-            }.navigationBarTitle(Text("SwiftUIStudy Contents"), displayMode: .large)
+            List (contentsList) { content in
+                self.contentsView(content: content)
+            }
+            .navigationBarTitle(Text("SwiftUIStudy Contents"), displayMode: .large)
+            .edgesIgnoringSafeArea(.bottom)
+        }
+    }
+
+    private func contentsView(content: Contents) -> AnyView {
+        switch content.view {
+        case .tozaiLineStaList:
+            return AnyView(NavigationLink(
+                destination: TozaiLineStaListView()) {
+                Text(content.title)
+            })
+        case .useXibInsteadOfView:
+            return AnyView(NavigationLink(
+                destination: UseXibInsteadOfView()) {
+                Text(content.title)
+            })
+        case .secureTextField:
+            return AnyView(NavigationLink(
+                destination: SecureTextField()) {
+                Text(content.title)
+            })
+        case .horizontalItemViewer:
+            return AnyView(NavigationLink(
+                destination: HorizontalItemViewer()) {
+                Text(content.title)
+            })
         }
     }
 }
