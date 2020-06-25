@@ -38,6 +38,7 @@
 		FDB3C2B92455D44600C74DF3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2B82455D44600C74DF3 /* Constant.swift */; };
 		FDB3C2BC2455F89000C74DF3 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C2BB2455F89000C74DF3 /* SafariView.swift */; };
 		FDB3C327245D3CAF00C74DF3 /* HorizontalItemUpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */; };
+		FDB7FBCE24A4927B00792FC3 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7FBCD24A4927B00792FC3 /* Contents.swift */; };
 		FDE81CCD24792282003D1C71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE81CCC24792282003D1C71 /* Color.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		FDB3C2B82455D44600C74DF3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		FDB3C2BB2455F89000C74DF3 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		FDB3C326245D3CAF00C74DF3 /* HorizontalItemUpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalItemUpperView.swift; sourceTree = "<group>"; };
+		FDB7FBCD24A4927B00792FC3 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
 		FDE81CCC24792282003D1C71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 		FD4D07DF23C3526F0082EF3B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FDB7FBCC24A4926400792FC3 /* Contents */,
 				FD4D07E023C352810082EF3B /* MetroStation */,
 			);
 			path = Model;
@@ -294,6 +297,14 @@
 			path = Safari;
 			sourceTree = "<group>";
 		};
+		FDB7FBCC24A4926400792FC3 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				FDB7FBCD24A4927B00792FC3 /* Contents.swift */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
 		FDE81CCB24792266003D1C71 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +428,7 @@
 				FDA3C605244DA64E007C0F6A /* StationRowView.swift in Sources */,
 				FDB3C2B92455D44600C74DF3 /* Constant.swift in Sources */,
 				FDA04FB223B5C5DF000DC962 /* AppDelegate.swift in Sources */,
+				FDB7FBCE24A4927B00792FC3 /* Contents.swift in Sources */,
 				FDA3C5FF24499F8B007C0F6A /* MailAddressView.swift in Sources */,
 				FDB3C327245D3CAF00C74DF3 /* HorizontalItemUpperView.swift in Sources */,
 				FD20869D23C5B16E00E97BA8 /* TozaiLineStaListViewModel.swift in Sources */,
