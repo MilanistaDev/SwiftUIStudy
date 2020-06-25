@@ -8,12 +8,14 @@
 
 import SwiftUI
 
+@available(iOS 14.0, *)
 struct HorizontalStackSampleView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
+@available(iOS 14.0, *)
 struct HorizontalStackSampleView_Previews: PreviewProvider {
     static var previews: some View {
         HorizontalStackSampleView()

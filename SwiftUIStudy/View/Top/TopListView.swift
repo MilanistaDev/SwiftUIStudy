@@ -42,10 +42,17 @@ struct TopListView: View {
                 Text(content.title)
             })
         case .lazyHStackSample:
-            return AnyView(NavigationLink(
-                destination: HorizontalStackSampleView()) {
-                Text(content.title)
-            })
+            if #available(iOS 14.0, *) {
+                return AnyView(NavigationLink(
+                    destination: HorizontalStackSampleView()) {
+                    Text(content.title)
+                })
+            } else {
+                return AnyView(NavigationLink(
+                    destination: Text("Not supportted.")) {
+                    Text(content.title)
+                })
+            }
         }
     }
 }
