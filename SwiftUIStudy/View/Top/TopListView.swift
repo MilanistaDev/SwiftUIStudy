@@ -41,6 +41,11 @@ struct TopListView: View {
                 destination: HorizontalItemViewer()) {
                 Text(content.title)
             })
+        case .lazyHStackSample:
+            return AnyView(NavigationLink(
+                destination: HorizontalStackSampleView()) {
+                Text(content.title)
+            })
         }
     }
 }
