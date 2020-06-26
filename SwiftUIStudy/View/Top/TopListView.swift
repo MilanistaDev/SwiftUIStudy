@@ -41,6 +41,18 @@ struct TopListView: View {
                 destination: HorizontalItemViewer()) {
                 Text(content.title)
             })
+        case .lazyHStackSample:
+            if #available(iOS 14.0, *) {
+                return AnyView(NavigationLink(
+                    destination: HorizontalStackSampleView()) {
+                    Text(content.title)
+                })
+            } else {
+                return AnyView(NavigationLink(
+                    destination: Text("Not supportted.")) {
+                    Text(content.title)
+                })
+            }
         }
     }
 }

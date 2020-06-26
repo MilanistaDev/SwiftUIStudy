@@ -19,6 +19,7 @@ enum ContentsViewEnum {
     case useXibInsteadOfView
     case secureTextField
     case horizontalItemViewer
+    case lazyHStackSample
 }
 
 let contentsList: [Contents] = [
@@ -26,4 +27,5 @@ let contentsList: [Contents] = [
     Contents(id: 1, title: "東京メトロ 東西線駅リスト2", view: .useXibInsteadOfView),
     Contents(id: 2, title: "ログインフォームサンプル", view: .secureTextField),
     Contents(id: 3, title: "横スクロールするアイテムビューア", view: .horizontalItemViewer),
+    Contents(id: 4, title: "[iOS14] LazyHStackのサンプル", view: .lazyHStackSample)
 ]
